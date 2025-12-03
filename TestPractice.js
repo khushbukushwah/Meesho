@@ -44,3 +44,38 @@ if (mark > 35) {
 } else {
   console.log("Fail");
 }
+
+let n=10;
+if (n > 0) {
+  console.log("Positive");
+} else if (n < 0) {
+  console.log("Negative");
+} else {
+  console.log("Zero");
+}
+
+let num = 7;
+
+if (num % 2 === 0) {
+  console.log("Even");
+} else {
+  console.log("Odd");
+}
+
+// let user = "admin";
+// let pass = "123";
+
+// if (user === "admin" && pass === "123") {
+//   console.log("Login Success");
+// } else {
+//   console.log("Invalid Login");
+// }
+
+//Simple Authentication
+let email = "test@gmail.com";
+let pwd = "1111";
+
+if (email === "test@gmail.com") {
+  if (pwd === "1111") console.log("Login Success");
+  else console.log("Wrong Password");
+} else console.log("Wrong Email");
