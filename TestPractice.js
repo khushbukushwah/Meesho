@@ -28,3 +28,19 @@ if (a > b) {
 } else {
   console.log("b is larger");
 }
+
+let marks = 32;
+
+if (marks >= 35) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
+
+let mark = 39;
+
+if (mark > 35) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
